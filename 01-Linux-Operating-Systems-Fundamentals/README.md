@@ -1,4 +1,4 @@
-01 - Linux Operating Systems Fundamentals (Security Case Study)
+#01 - Linux Operating Systems Fundamentals (Security Case Study)
 Overview
 
 This project documents hands-on practice with Linux command-line operations in a controlled Kali Linux environment as part of foundational cybersecurity training.
@@ -7,7 +7,7 @@ The focus was on developing practical understanding of how Linux systems behave 
 
 Rather than simply executing commands, this lab simulates real-world tasks performed in penetration testing, digital forensics, and system administration workflows.
 
-Objectives
+#Objectives
 Understand Linux system structure and terminal operations
 Perform advanced file and directory management
 Apply Linux permission and ownership controls
