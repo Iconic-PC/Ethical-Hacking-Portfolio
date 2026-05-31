@@ -1,117 +1,71 @@
-**📘 01 - Linux Operating Systems Fundamentals
-Security Case Study (Kali Linux Lab)
-Overview**
+# Linux Operating Systems Fundamentals
 
-This project documents hands-on Linux command-line practice in a controlled Kali Linux environment as part of foundational cybersecurity training.
+This folder contains Linux command-line exercises completed as part of foundational cybersecurity training in a controlled Kali Linux environment.
 
-It focuses on understanding how Linux systems behave from a security perspective — including file management, permissions, logging, process monitoring, and system navigation.
+The focus was on building practical understanding of how Linux systems operate from a security perspective, including file management, permissions enforcement, system monitoring, and basic log analysis.
 
-Rather than simple command execution, this lab simulates real-world tasks used in penetration testing, digital forensics, and system administration.
+These exercises simulate real-world tasks performed in penetration testing, digital forensics, and system administration.
 
-**Objectives**
-Understand Linux system structure and terminal operations
-Perform advanced file and directory management
-Apply Linux permission and ownership controls
-Analyze system logs and file content
-Use search and filtering tools for data extraction
-Monitor system processes and resource usage
-Practice evidence handling through archiving
+---
 
-**Tools Used**
-Kali Linux (Debian-based penetration testing OS)
-Bash Shell (Terminal)
-GNOME Terminal
-Core utilities: ls, cd, pwd, mkdir, touch, cp, mv, rm
-Security tools: chmod, chown, sudo
-Analysis tools: grep, wc, head, tail, diff
-System tools: find, ps, df, du, uname
-Archiving: tar
+## Topics Covered
 
-**Skills Demonstrated**
-Linux command-line proficiency
-File system navigation and organization
-Secure permission management (chmod, chown)
-Log analysis and filtering (grep, wc, head, tail)
-Data processing using pipes
-Automated file search (find)
-System monitoring (ps, df, du)
-Evidence archiving (tar)
+- System navigation and terminal usage  
+- File and directory management in Linux environments  
+- File permission and ownership enforcement for security control  
+- Log analysis and filtering for anomaly detection  
+- File search and automation using command-line tools  
+- System monitoring and resource inspection  
+- Evidence handling through compression and archiving  
 
-**PRACTICAL ACTIVITIES**
-**1. System Navigation**
+---
 
-✔ Used whoami to identify user
-✔ Used pwd to confirm location
-✔ Used ls -l to inspect files
+## Key Activities
 
-**2. File & Directory Management**
+- System navigation using `whoami`, `pwd`, and `ls` to understand system context  
+- File and directory operations using `mkdir`, `touch`, `cp`, `mv`, and `rm`  
+- Log creation and analysis using `cat`, `grep`, `wc`, `head`, and `tail` to identify patterns and errors  
+- File comparison using `diff` to detect configuration changes  
+- Permission enforcement using `chmod` and `chown` to simulate least-privilege security controls  
+- File search automation using `find` for structured system-wide queries  
+- System monitoring using `ps`, `df`, `du`, and `uname` to evaluate system state  
+- Evidence archiving using `tar` to simulate secure backup and preservation  
 
-✔ Created structured directories using mkdir -p
-✔ Managed files using touch, cp, mv, rm
-✔ Simulated pentest workspace structure
+---
 
-**3. File Content & Log Analysis**
+## Skills Demonstrated
 
-✔ Created logs using echo and cat
-✔ Extracted errors using grep
-✔ Counted events using wc -l
-✔ Filtered data using pipes
+- Linux command-line fundamentals for system interaction and control  
+- Structured file system navigation and workspace organization  
+- Security-focused permission management using chmod and chown  
+- Log inspection and anomaly detection using text processing tools  
+- Efficient command chaining using pipes and filters  
+- Automated file discovery using find for system analysis  
+- System resource monitoring and process inspection  
+- Secure evidence storage using compression and archiving techniques  
 
-**4. Permissions & Access Control**
+---
 
-✔ Applied permissions using chmod
-✔ Understood 600 / 644 / 755 schemes
-✔ Changed ownership using chown
-✔ Simulated secure file handling
+## Security Relevance
 
-**5. Search & Automation**
+These skills are directly applicable in cybersecurity domains such as:
 
-✔ Used find for file discovery
-✔ Automated permission changes with -exec
-✔ Improved system-wide operations
+- Incident response through log analysis and detection of suspicious activity  
+- Penetration testing workflow organization and reconnaissance data handling  
+- System hardening through proper permission and access control configuration  
+- Digital forensics through structured evidence collection and preservation  
+- Security monitoring through process and resource analysis  
 
-**6. System Monitoring**
+---
 
-✔ Viewed processes using ps
-✔ Checked disk usage using df -h and du -sh
-✔ Displayed system info using uname -a
+## Key Insight
 
-**7. Archiving & Evidence Handling**
+Linux command-line proficiency is not just about executing commands — it is about understanding how system behavior can be analyzed, controlled, and secured.
 
-✔ Created backups using tar -czf
-✔ Extracted and verified archives
-✔ Simulated forensic evidence storage
+Tools such as `grep`, `find`, and `chmod` become powerful security instruments when applied in real operational environments.
 
-**🔐 Security Relevance**
+---
 
-These skills apply directly to:
+## Note
 
-**Incident Response** → log analysis & anomaly detection
-**Penetration Testing** → structured reconnaissance workflows
-**System Hardening** → permission enforcement
-**Digital Forensics** → evidence preservation
-**SOC Operations** → system monitoring
-
-**Key Insight**
-
-Linux is not about memorizing commands — it is about understanding how system behavior can be leveraged for both attack and defense.
-
-Tools like grep, find, and chmod become powerful security instruments when used correctly.
-
-**Conclusion**
-
-This lab builds foundational skills required for advanced cybersecurity domains such as:
-
-Privilege escalation
-Malware analysis
-System exploitation
-
-It demonstrates how Linux operates as a core platform for both offensive and defensive security operations.
-
-**📁 Evidence**
-
-All screenshots and outputs are stored in:
-
-/screenshots
-
-for verification and documentation purposes.
+All exercises were performed in a controlled Kali Linux environment for educational and cybersecurity training purposes only.
